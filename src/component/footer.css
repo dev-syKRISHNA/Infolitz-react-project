@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.footer {
+
+    width: 1450px;
+    height: 498px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.address{
+
+    margin-top: 57px;
+    width: 278px;
+    height: 340.39px;
+    color: white;
+    box-sizing: border-box;
+    margin-left: 38px;
+}
+
+.addrHead h3{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    width: 132.38px;
+    height: 39px;
+    top: 9px;
+    margin-top: 9px;    
+    
+}
+
+.addrHead {
+    height: 32px;
+    margin-bottom: 17px;
+}
+
+.block1 {
+    box-sizing: border-box;
+    font-weight: 400;
+    text-align: left;    
+    font-family: Roboto;
+    height: auto;
+    
+}
+
+.block1 p{
+    margin-bottom: 14px;
+    font-size: 19px;
+}
+
+.contact{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact a{
+    margin-bottom: 13px;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+.address a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.addrBlock p{
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+
+/* CSS for second Div */
+.links{
+    width: 418px;
+    height: 340.39px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-family: Inter;
+    color: white;
+    margin-left: 60px;
+    
+}
+
+.links2{
+    display: none;
+}
+
+
+
+.col1,.col2,.col3 {
+    font-size: 16px;
+    margin-top: 55px;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+}
+
+.facebook img {
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.logo-text {
+    font-size: 10px; 
+}
+
+/* CSS for third Div */
+
+.about{    
+    width: 488px;
+    height: 340.39px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    margin-left: 30px;
+
+}
+
+.about h3{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    text-align: left;
+    color:  #FFFFFF;
+}
+
+.about p{
+    width: 284px;
+    height: 142px;
+    top: 183px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.logo{
+    width: 164px;
+    height: 104px;
+    margin-top: 146px;
+}
+
+.copyright{
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    text-align: center;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.184);
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.copyright p{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Montserrat;
+} 
+
+@media (max-width: 430px) {
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 430px;
+    height: 618px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px; 
+    box-sizing: border-box; 
+    font-size: 16px;
+}
+
+.block1 p{
+    font-size: 15px;
+    height: 9px;
+
+}
+
+.block1{
+    margin-bottom: 10px;
+}
+
+
+.contact a{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact{
+    margin-top: 23px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.addrBlock{
+    display: none;
+}
+
+.links2{
+    width: 418px;
+    height: 340.39px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-family: Inter;
+    color: white;
+    
+}
+
+.links2 h3{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.links2 p{
+    font-size: 16px;
+    margin-bottom: 17px;
+
+}
+
+.addrBlock{
+    display: none;
+}
+
+
+
+.logo{
+    position: absolute;
+    top: 13px;
+    left: 17px;
+    width: 164px;
+    height: 104px;
+    margin-top: 0px;
+    margin-top: 10px;
+}
+
+.copyright{
+    position: absolute;
+    top: 320px;
+    height: 0;
+}
+
+.about,.copyright p{
+    display: none;
+}
+
+.address{
+    position: absolute;
+    top: 66px;
+    left: -8px;
+    max-width: 50%;
+    font-size: 12px;
+
+}
+
+
+.links2{
+    position: absolute;
+    top: 270px;
+    left: 28px;
+    max-width: 100%;
+    max-height: 190px;
+    margin-top: 20px;
+}
+
+.links{
+    display: none;
+}
+
+}  
+
+/* Responsive CSS for Tablet */
+
+@media (min-width: 431px) and (max-width: 1023px){
+    .footer{
+        position: fixed;
+        bottom: 0;
+        height: 597px;
+    }
+
+    .address{
+        position: absolute;
+        top: 10px;
+        left: -7px;
+        box-sizing: border-box;
+    }
+
+    .block1 p{
+        font-size: 16px;
+    }
+
+    .contact a{
+        font-size: 16px;
+    }
+
+    .addrBlock{
+        display: none;
+    }
+
+    .links2{
+        position: absolute;
+        left: 32px;
+        top: 250px;
+        
+    }
+
+    .links2{
+        width: 418px;
+        height: 340.39px;
+        margin-top: 40px;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        font-family: Inter;
+        color: white;
+        
+    }
+
+    .links{
+        display: none;
+    }
+
+    .logo{
+        position: absolute;
+        left: 500px;
+        top: 150px;
+    }
+
+    .copyright{
+        height: 0px;
+        position: absolute;
+        left: 0;
+        top: 330px;
+        width: 50%;
+        
+        
+        
+    }
+
+    .about,.copyright p{
+        display: none;
+        
+    } 
+}
