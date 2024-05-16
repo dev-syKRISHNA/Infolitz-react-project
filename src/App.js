@@ -4,6 +4,7 @@ import './index.css';
 import Description from './component/Description';
 import ImageContainer from './component/ImageContainer';
 import Footer from './component/footer';
+import StickyNavbar from './component/StickyNavbar';
 
 
 function App() {
@@ -25,23 +26,12 @@ function App() {
             </ul>
           </nav>
         </div>
+        <StickyNavbar/>
         <div className=' flex flex-col  absolute top-[410px]  w-full text-white items-center text-start'>
           <h1 className=' text-[64px] '>EL, Teknik & Installationer för  <span className='block'>framtiden med  <span className=' text-lime-400'>hållbara framsteg</span></span> </h1>
           <h2 className=' text-xl font-medium w-[800PX] relative right-[90px]'>Med målet att vara marknadsledande, kombinerar Egestam och Mattsson  expertkunskap, engagemang och innovation för att bygga varaktiga kundrelationer och leverera arbete med fokus på kvalitet, miljömedvetenhet och säkerhet.</h2>
         </div>
-        {/* <div className='w-full h-[99px]  opacity-90 bg-[#89BF50]  sticky top-0 flex justify-around '>
-          <img src="./assets/stickyLogo.png" alt="" className=' h-16 w-[119px]  mt-[19px] ' />
-          <nav className=' flex text-2xl text-white font-extralight items-center w-[1094px]  ' >
-            <ul className=' flex  space-x-20  '>
-              <li>Hem</li>
-              <li><a href="#">Hållbarhet</a></li>
-              <li><a href="#">Tjänster</a></li>
-              <li><a href="#">Nyheter</a></li>
-              <li><a href="#">Kontakt</a></li>
-              <li><a href="#">Jobba med oss</a></li>
-            </ul>
-          </nav>
-        </div> */}
+
       </div>
 
       <div className=' w-full h-[526px]  bg-[#CCCCCC] '>
