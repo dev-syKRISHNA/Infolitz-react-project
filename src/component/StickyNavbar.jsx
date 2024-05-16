@@ -21,11 +21,11 @@ const StickyNavbar = () => {
                 <nav className='flex items-center ml-[372px] w-full'>
                     <ul className='flex flex-row space-x-16 inter-font text-2xl text-white font-extralight'>
                         <li className='text-lime-400 mr-11'>Hem</li>
-                        <li><a href="#">Hållbarhet</a></li>
-                        <li><a href="#">Tjänster</a></li>
-                        <li><a href="#">Nyheter</a></li>
-                        <li><a href="#">Kontakt</a></li>
-                        <li><a href="#">Jobba med oss</a></li>
+                        <li><button >Hållbarhet</button></li>
+                        <li><button >Tjänster</button></li>
+                        <li><button >Nyheter</button></li>
+                        <li><button >Kontakt</button></li>
+                        <li><button >Jobba med oss</button></li>
                     </ul>
                 </nav>
             </div>
