@@ -4,6 +4,7 @@ import StickyNavbar from './component/StickyNavbar'
 import ImageContainer from './component/ImageContainer'
 import Description from './component/Description'
 import Footer from './component/footer'
+import HamMenu from './component/HamMenu'
 
 
 const App2 = () => {
@@ -14,8 +15,11 @@ const App2 = () => {
       <div className='relative h-[667px] sm:h-[667px] md:h-[854px] lg:h-[978px] xl:h-[1080px]'>
         <video src="./assets/homeVideo.mp4" autoPlay loop muted className='absolute inset-0 object-cover w-full h-[667px] sm:h-[667px] md:h-[854px] lg:h-[978px] xl:h-[1080px]'></video>
         <div className='absolute top-0  w-full h-full bg-[#00354E] opacity-60'></div>
+        <div className='absolute top-0 w-full lg:hidden z-50'>
+          <HamMenu />
+        </div>
         <div className=' relative z-10'>
-          <div className='flex flex-row w-full items-center p-5 md:py-6 lg:px-14 xl:px-36 lg:py-9  z-50'>
+          <div className='hidden lg:flex flex-row w-full items-center p-5 md:py-6 lg:px-14 xl:px-36 lg:py-9  z-50'>
             <img src="./assets/desktopLogo.png" alt="logo" className='  w-[137PX] h-[69PX] md:w-[182px] md:h-[115px] 2xl:w-[266px] 2xl:h-[167px]  ' />
             <div className="flex items-center ml-[372px] w-full">
               <ul className="hidden lg:flex space-x-14 xl:space-x-16 absolute right-[160px] xl:text-2xl text-white font-extralight inter-font">
@@ -28,7 +32,8 @@ const App2 = () => {
               </ul>
             </div>
           </div>
-          <div className=' flex flex-col items-center h-full w-full'>
+
+          <div className=' flex flex-col items-center h-full w-full pt-32'>
             <div className='w-full flex flex-col items-center md:w-full  text-center md:text-start px-10 md:px-16  my-32 text-white'>
               <h1 className='  uppercase md:normal-case md:text-[64px] md:max-w-[850px] lg:max-w-[1100px] leading-[30px] md:leading-[70px]'>EL, Teknik & Installationer för framtiden med
                 <br className='lg:hidden' />
@@ -45,7 +50,7 @@ const App2 = () => {
 
       <div className='md:hidden'>
         <Description />
-        
+
       </div>
 
       <div className='bg-[#CCCCCC] px-5  py-8 xl:py-[70px] '>
@@ -308,7 +313,7 @@ const App2 = () => {
       </div>
 
       <div>
-        <Footer/>
+        <Footer />
       </div>
 
 
