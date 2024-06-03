@@ -7,7 +7,7 @@ const HamMenu = () => {
         setIsHamVisible(!isHamVisible);
     };
     return (
-        <div className={` ${isHamVisible ? 'bg-[#89BF50ED] bg-opacity-75' : 'bg-transparent'} z-50`}>
+        <div className={` ${isHamVisible ? 'bg-[#89BF50] ' : 'bg-transparent'} z-50`}>
             <div className='lg:hidden p-5'>
                 <div className='flex flex-row justify-between '>
                     <img src="./assets/DesktopLogo.png" alt="logo" className='w-[95px] h-[61px]' />
@@ -20,7 +20,7 @@ const HamMenu = () => {
                     </div>
                 </div>
                 {isHamVisible && (
-                    <div className=" py-3 ">
+                    <div className=" py-3 h-[500px] ">
                         <ul className="flex flex-col items-center text-[#00354E] font-semibold text-xl inter-font">
                             <li className='border-[#00354E] border-y-[1px] py-3 flex justify-between w-full'>Hem
                                 <img src="./assets/FloatNavArrow.png" alt="" className='w-[8px] h-[16px]' />

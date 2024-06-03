@@ -21,7 +21,7 @@ const StickyNavbar = () => {
     };
 
     return (
-        <div className={`fixed w-full bg-[#89BF50ED] text-white p-4 top-0 left-0 z-10 transition-transform duration-300 ${isNavbarVisible ? '' : '-translate-y-full'}`}>
+        <div className={`fixed w-full bg-[#89BF50] text-white p-4 top-0 left-0 z-10 transition-transform duration-300 ${isNavbarVisible ? '' : '-translate-y-full'}`}>
             <div className='hidden lg:flex flex-row w-full items-center p-5 lg:px-14 xl:px-36 z-50'>
                 <img src="./assets/stickyLogo.png" alt="logo" className='w-[95px] h-[61px]' />
                 <div className="flex items-center ml-[372px] w-full">
