@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../index.css';
 
-const AccordionComponent = ({ title, description, backgroundColor, textColor, titleColor, arrow, buttonColor,buttonText }) => {
+const AccordionComponent2 = ({ title, description, backgroundColor, textColor, titleColor, buttonColor,buttonText }) => {
     const [accordionOpen, setAccordionOpen] = useState(false);
 
     return (
@@ -12,9 +12,9 @@ const AccordionComponent = ({ title, description, backgroundColor, textColor, ti
             >
                 <span className=' font-light lg:font-light  text-[35px] lg:text-5xl mt-[30px] lg:my-[47px] mb-4 lg:mb-9 text-white box-border' style={{color: titleColor}}>{title}</span>
                 {accordionOpen ? (
-                    <span ><img src="./assets/VectorClose.png" alt="" style={{color: arrow}} /></span>
+                    <span ><img src="./assets/Frameclose.svg" alt=""  /></span>
                 ) : (
-                    <span ><img src="./assets/VectorOpen.png" alt="" style={{color: arrow}} /></span>
+                    <span ><img src="./assets/Frameopen.svg" alt=""  /></span>
                 )}
             </button>
             <div className={`grid overflow-hidden transition-all duration-300 ease-in-out 
@@ -34,4 +34,4 @@ const AccordionComponent = ({ title, description, backgroundColor, textColor, ti
     );
 }
 
-export default AccordionComponent;
+export default AccordionComponent2;

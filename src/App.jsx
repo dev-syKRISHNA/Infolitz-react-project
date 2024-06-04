@@ -14,7 +14,7 @@ const App2 = () => {
       <div className='relative h-[667px] sm:h-[667px] md:h-[854px] lg:h-[978px] xl:h-[1080px]'>
         <video src="./assets/homeVideo.mp4" autoPlay loop muted className='absolute inset-0 object-cover w-full h-[667px] sm:h-[667px] md:h-[854px] lg:h-[978px] xl:h-[1080px]'></video>
         <div className='absolute top-0  w-full h-full bg-[#00354E] opacity-60'></div>
-        <div className='absolute top-0 w-full lg:hidden z-50'>
+        <div className='absolute top-0 w-full lg:hidden z-40'>
           <HamMenu />
         </div>
         <div className=' relative z-10'>
@@ -44,12 +44,13 @@ const App2 = () => {
           </div>
         </div>
       </div>
-      <StickyNavbar />
+      <div>
+        <StickyNavbar />
+      </div>
 
 
       <div className='md:hidden'>
         <Description />
-
       </div>
 
       <div className='bg-white md:bg-[#CCCCCC] px-5  py-8 xl:py-[70px] '>
@@ -65,7 +66,6 @@ const App2 = () => {
             miljövänliga och innovativa lösningar för fastigheter och infrastruktur.
           </p>
         </div>
-
       </div>
 
       <div className='hidden md:block'>
@@ -103,7 +103,7 @@ const App2 = () => {
         <div className='hidden md:block lg:hidden pb-8'>
           <div className='relative'>
             <img src="./assets/solarImage.jpeg" alt="SolarImage" className='  w-full h-[433px] object-cover' />
-            <div className='absolute inset-0 bg-[#00354E] opacity-60 mix-blend-multiply' ></div>
+            <div className='absolute inset-0 bg-[#00354E] opacity-70 mix-blend-multiply' ></div>
             <div className='absolute inset-0 text-white max-w-[700px] ml-10 flex flex-col gap-3 my-10'>
               <h1 className='text-[48px] font-normal'>Energieffektiva lösningar inom elinstallation</h1>
               <p className='text-lg font-normal'>Eftersom energikostnaden är löpande blir energioptimering en investering
@@ -137,24 +137,23 @@ const App2 = () => {
       </div>
 
 
-      <div className=' flex flex-col md:flex-row   lg:gap-52 items-center justify-around py-16'>
+      <div className=' flex flex-col md:flex-row   lg:gap-48 items-center justify-around py-16'>
         <div className=' md:w-[451px] lg:w-[575px] px-5  '>
           <div className='flex justify-center '>
-            <img src="./assets/award.jpeg" alt="award" className=' w-[363px] h-[266px] xl:w-[558px] xl:h-[300px]  xl:object-cover rounded-[10px] ' />
+            <img src="./assets/award.jpeg" alt="award" className=' w-[363px] h-[266px] md:w-[383px] md:h-[183px] xl:w-[558px] xl:h-[300px]  xl:object-cover rounded-[10px] ' />
           </div>
-          <div className='flex flex-col gap-2 mt-6 px-3 md:px-5 lg:px-10 lg:ml-10 xl:ml-0 xl:px-0'>
+          <div className='flex flex-col gap-2 mt-6 px-3 md:px-5  lg:ml-14 xl:ml-0 xl:px-0'>
             <h4 className='text-xl md:text-[32px] xl:text-5xl font-bold text-[#003A3A]   '>VÅRT MOTTO</h4>
             <h5 className=' text-lg font-normal leading-8  '>Kontrollerad riskhantering med förankring i god affärsetik</h5>
             <p className=' md:text-sm lg:text-xl  roboto-light lg:leading-6 text-left  text-[#00354E]  '>Egestam och Mattsson strävar efter att generera stark avkastning genom en stabil ekonomisk tillväxt. Vår verksamhet präglas av en noggrant kontrollerad riskhantering med förankring i god affärsetik. Ett centralt fokus i vår affärsstrategi är att aktivt minska vår miljöpåverkan, vilket vi ser som en avgörande aspekt för att främja en hållbar framtid.</p>
           </div>
-
         </div>
         <div className='md:hidden 2xl:block py-5'>
           <ImageContainer />
         </div>
-        <div className='hidden md:flex flex-col 2xl:hidden '>
-          <div className=' w-[391px] flex flex-col gap-7 '>
-            <img src="./assets/projeckt2.jpg" alt="Projekt" className='w-[338px] h-[183px] xl:w-[447px] xl:h-[260px]' />
+        <div className='hidden md:flex flex-col 2xl:hidden lg:-mt-[36px] '>
+          <div className=' w-[391px] flex flex-col gap-7 mt-0'>
+            <img src="./assets/projeckt2.jpg" alt="Projekt" className='w-[383px] h-[183px] xl:w-[447px] xl:h-[260px]' />
             <h2 className=' text-[32px] xl:text-5xl font-semibold text-[#00354E] '>Hör av dig till oss</h2>
             <h3 className=' text-[20px] font-normal text-[#00354E] my-1 '>Behöver du hjälp med något ?Kontakta oss idag!</h3>
           </div>
