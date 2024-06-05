@@ -53,13 +53,13 @@ const App2 = () => {
         <Description />
       </div>
 
-      <div className='bg-white md:bg-[#CCCCCC] px-5  py-8 xl:py-[70px] '>
-        <div className='xl:ml-[85px]'>
-          <div className='flex gap-4 md: items-center justify-normal md:justify-start   md:ml-[90px]  lg:ml-[210px]'>
+      <div className='bg-white md:bg-[#CCCCCC] px-8 py-8 xl:py-[70px] '>
+        <div className='xl:ml-[85px] '>
+          <div className='flex gap-4  items-center  md:justify-start   md:ml-[90px]  lg:ml-[210px] mb-5 '>
             <img src="./assets/arrow.png" alt="arrow button" className='w-[32px] h-[32px] md:w-[60px] md:h-[60px] lg:w-[70px] lg:h-[70px]' />
             <h1 className='font-bold text-lg md:text-[32px] lg:text-[40px] text-[#00354E] '>Välkommen till EM El & Data AB</h1>
           </div>
-          <p className=' md:mx-[165px] lg:ml-[210px] text-base md:text-xl lg:text-2xl    px-4 lg:py-10 md:py-3  text-[#00354E] font-normal leading-6 md:leading-[30px] lg:leading-[42px] max-w-[1240px]'>
+          <p className=' md:mx-[165px] lg:ml-[210px] text-base md:text-xl lg:text-2xl     lg:py-10 md:py-3  text-[#00354E] font-normal leading-6 md:leading-[30px] lg:leading-[42px] max-w-[1240px]'>
             Egestam & Mattsson grundades 2012, vi är experter inom el- och datanätverksinstallationer.
             Ett entreprenörsdrivet företag som drivs med ett team engagerade medarbetare. Vi kombinerar
             gedigen teknisk kunskap med ett starkt engagemang för hållbarhet, fokuserade på att leverera
@@ -92,7 +92,7 @@ const App2 = () => {
             </div>
 
             <div className=' flex flex-col md:flex-row items-center relative max-w-max max-h-max justify-center'>
-              <button className='md:w-[450px] md:h-12 bg-[#89BF50] rounded-[54px] text-white py-2 px-14 flex  items-center gap-[2px] justify-between '>Så här jobbar vi med energioptimering
+              <button className='md:w-[420px] md:h-12 bg-[#89BF50] rounded-[54px] text-white py-2 px-4 flex  items-center  justify-center gap-5 '>Så här jobbar vi med energioptimering
                 <img src="./assets/after.png" alt="after" className=' ' />
               </button>
             </div>
@@ -137,7 +137,7 @@ const App2 = () => {
       </div>
 
 
-      <div className=' flex flex-col md:flex-row   lg:gap-48 items-center justify-around py-16'>
+      <div className=' flex flex-col md:flex-row   lg:gap-48 items-center justify-around py-16 2xl:px-[137px]'>
         <div className=' md:w-[451px] lg:w-[575px] px-5  '>
           <div className='flex justify-center '>
             <img src="./assets/award.jpeg" alt="award" className=' w-[363px] h-[266px] md:w-[383px] md:h-[183px] xl:w-[558px] xl:h-[300px]  xl:object-cover rounded-[10px] ' />
@@ -170,7 +170,7 @@ const App2 = () => {
         </div>
       </div>
 
-      <div className=' py-10  px-5 '>
+      <div className=' py-10   '>
         <h1 className=' roboto-bold  text-4xl lg:text-5xl px-5 xl:px-[177px] pb-10 text-[#003A3A] hidden md:block ' >Nyheter</h1>
         <div className=' grid  grid-cols-1 md:grid-cols-2 xl:grid-cols-3  xl:px-[177px] lg:gap-28  items-center px-5'>
           <div className=' md:w-[350px]'>
@@ -220,7 +220,7 @@ const App2 = () => {
       </div>
 
 
-      <div className='hidden px-[50px] lg:px-[195px] my-12 lg:flex lg:gap-28  '>
+      <div className='hidden px-[50px] lg:px-[175px] my-12 lg:flex lg:gap-28  '>
         <div>
           <h2 className=' text-5xl font-semibold text-[#003A3A] mb-8'>Projekt</h2>
           <div className=' flex gap-7 lg:gap-28 '>
@@ -262,7 +262,7 @@ const App2 = () => {
         <div className='relative h-[431px] lg:h-[562px] xl:h-[637px] w-full '>
           <img src="./assets/bottomImage.jpeg" alt="bottomImage" className=' h-full w-full object-cover  ' />
           <div className='absolute inset-0 bg-[#00354E] opacity-75  mix-blend-multiply'></div>
-          <div className='absolute inset-0 w-full  flex flex-row  items-center align-middle lg:gap-5 justify-center p-5'>
+          <div className='absolute inset-0 w-full  flex flex-row  items-center align-middle lg:gap-5 justify-between px-10 py-5'>
             <div className=' relative lg:w-[910px] text-white lg:flex lg:flex-col lg:gap-3'>
               <h3 className='hidden  lg:block text-xl font-semibold '>Vi gör skillnad</h3>
               <h1 className=' text-[32px] lg:text-4xl font-bold py-1'>Egestam & Mattsson satsar på en hållbar affär</h1>
@@ -297,18 +297,18 @@ const App2 = () => {
           <h2 className='text-xl font-medium text-[#00354E] w-[330px]'>Hållbar framtid en del ev vår affär vår policy för att bidra till de Globala Målen</h2>
           <p className='text-base font-normal text-[#00354E] leading-[30px]'>Egestam och Mattsson har antagit en policy som aktivt stödjer de globala målen för hållbar utveckling. Denna policy innefattar åtaganden att minska miljöpåverkan från verksamheten, främja energieffektivitet i alla projekt, och bidra till att bygga hållbara samhällen. Företaget strävar efter att integrera hållbara metoder i alla aspekter av sin affärsmodell, från design och installation till drift och underhåll. Genom att arbeta nära med kunder och samarbetspartners, siktar Egestam och Mattsson på att vara en drivkraft för positiv förändring och innovation inom sitt område, i linje med de globala hållbarhetsmålen.</p>
         </div>
-        <div className='flex justify-center mx-5'>
+        <div className='flex justify-center my-5 mx-5'>
           <button className='  w-[242px] h-[60px] border-solid border-[3px] border-[#89BF50] text-[#89BF50] text-xl font-bold rounded-[20px]  montserrat '>
             Hållbarhet
           </button>
         </div>
       </div>
 
-      <div className='flex flex-col my-5 mx-5 md:hidden '>
+      <div className='flex flex-col my-14 mx-5 md:hidden '>
         <div className=' flex flex-col gap-4 '>
           <img src="./assets/projeckt2.jpg" alt="Projekt" className='w-[279px] h-[186px]' />
           <h2 className=' text-[32px] font-normal text-[#00354E] '>Hör av dig till oss</h2>
-          <h3 className=' text-base font-normal text-[#00354E] my-1 '>Behöver du hjälp med något ?Kontakta oss idag!</h3>
+          <h3 className=' text-base font-normal text-[#00354E] my-1 '>Behöver du hjälp med något ?<span className='block'>Kontakta oss idag!</span></h3>
         </div>
         <div className=' flex flex-col  gap-3 mt-2'>
           <button className=' bg-[#00354E] text-white flex justify-around rounded-3xl gap-2 items-center text-base py-2 px-6 w-[233px]'>

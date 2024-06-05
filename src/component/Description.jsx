@@ -20,7 +20,6 @@ const Description = () => {
                 backgroundColor='#89BF50'
                 textColor='#00354E'
                 titleColor='#00354E'
-                arrow='#00354E'
                 buttonColor='#00354E'
                 buttonText='#FFFFFF'
             />
@@ -42,7 +41,7 @@ const Description = () => {
                 arrow='#FFFFFF'
 
             />
-            <AccordionComponent2
+            <AccordionComponent
                 title='Renovering'
                 description='Egestam och Mattsson erbjuder omfattande tjänster för renovering inom el och installation, anpassade för både bostäder och kommersiella fastigheter. Vår expertis täcker allt från uppgradering av befintliga elsystem till installation av moderna, energieffektiva lösningar. Vi förstår vikten av att kombinera funktionalitet med estetik och arbetar nära våra kunder för att säkerställa att varje projekt möter deras specifika behov och önskemål. Vårt team är specialiserat på att leverera högkvalitativa resultat, från planering till slutförande, med fokus på säkerhet, hållbarhet och teknisk innovation. Kontakta oss för att diskutera dina renoveringsbehov och få en skräddarsydd offert från branschens experter.'
                 backgroundColor='#89BF50'
