@@ -171,8 +171,8 @@ const App2 = () => {
       </div>
 
       <div className=' py-10   '>
-        <h1 className=' roboto-bold  text-4xl lg:text-5xl px-5 xl:px-[177px] pb-10 text-[#003A3A] hidden md:block ' >Nyheter</h1>
-        <div className=' grid  grid-cols-1 md:grid-cols-2 xl:grid-cols-3  xl:px-[177px] lg:gap-28  items-center px-5'>
+        <h1 className=' roboto-bold  text-4xl lg:text-5xl px-24 lg:px-[160px] xl:px-[177px] 2xl:px-[340px] pb-10 text-[#003A3A] hidden md:block ' >Nyheter</h1>
+        <div className=' grid  grid-cols-1 md:grid-cols-2 xl:grid-cols-3  xl:px-[177px] lg:gap-28  items-center px-24 lg:px-[160px] 2xl:px-[340px]'>
           <div className=' md:w-[350px]'>
             <img src="./assets/gridImage1.png" alt="" />
             <p className='text-[11px] font-bold text-[#727272] mt-3 hidden md:block'>NYHTER</p>
@@ -220,7 +220,7 @@ const App2 = () => {
       </div>
 
 
-      <div className='hidden px-[50px] lg:px-[175px] my-12 lg:flex lg:gap-28  '>
+      <div className='hidden px-[50px] lg:px-[160px] 2xl:px-[340px] my-12 lg:flex lg:gap-28  '>
         <div>
           <h2 className=' text-5xl font-semibold text-[#003A3A] mb-8'>Projekt</h2>
           <div className=' flex gap-7 lg:gap-28 '>
