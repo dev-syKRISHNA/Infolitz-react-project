@@ -35,9 +35,9 @@ const StickyNavbar = () => {
                     </ul>
                 </div>
             </div>
-            <div className='lg:hidden p-5'>
-                <div className='flex flex-row justify-between '>
-                    <img src="./assets/stickyLogo.png" alt="logo" className='w-[95px] h-[61px]' />
+            <div className=' lg:hidden  bg-[#89BF50]'>
+                <div className='flex flex-row justify-between h-[97px] mx-5'>
+                    <img src="./assets/stickyLogo.png" alt="logo" className='w-[95px] h-[61px] mt-5' />
                     <div onClick={toggleMenu} className='cursor-pointer flex items-center'>
                         {isHamVisible ? (
                             <img src="./assets/CloseMenu.png" alt="close menu" className='' />
@@ -47,7 +47,7 @@ const StickyNavbar = () => {
                     </div>
                 </div>
                 {isHamVisible && (
-                    <div className=" py-3">
+                    <div className=" py-3 mx-5 h-[585px] ">
                         <ul className="flex flex-col items-center text-[#00354E] font-semibold text-xl inter-font">
                             <li className='border-[#00354E] border-y-[1px] py-3 flex justify-between w-full'>Hem
                                 <img src="./assets/FloatNavArrow.png" alt="" className='w-[8px] h-[16px]' />
