@@ -137,7 +137,7 @@ const App2 = () => {
       </div>
 
 
-      <div className=' flex flex-col md:flex-row   lg:gap-48 items-center justify-around py-16 2xl:px-[137px]'>
+      <div className=' flex flex-col md:flex-row   lg:gap-28 items-center justify-around py-16 2xl:px-[137px]'>
         <div className=' md:w-[451px] lg:w-[575px] px-5  '>
           <div className='flex justify-center '>
             <img src="./assets/award.jpeg" alt="award" className=' w-[363px] h-[266px] md:w-[383px] md:h-[183px] xl:w-[558px] xl:h-[300px]  xl:object-cover rounded-[10px] ' />
@@ -171,8 +171,8 @@ const App2 = () => {
       </div>
 
       <div className=' py-10   '>
-        <h1 className=' roboto-bold  text-4xl lg:text-5xl px-24 lg:px-[160px] xl:px-[177px] 2xl:px-[340px] pb-10 text-[#003A3A] hidden md:block ' >Nyheter</h1>
-        <div className=' grid  grid-cols-1 md:grid-cols-2 xl:grid-cols-3  xl:px-[177px] lg:gap-28  items-center px-24 lg:px-[160px] 2xl:px-[340px]'>
+        <h1 className=' roboto-bold  text-4xl lg:text-5xl px-7 lg:px-[160px] xl:px-[177px] 2xl:px-[340px] pb-10 text-[#003A3A] hidden md:block ' >Nyheter</h1>
+        <div className=' grid  grid-cols-1 md:grid-cols-2 xl:grid-cols-3  xl:px-[177px] lg:gap-28  items-center px-6 lg:px-[160px] 2xl:px-[340px]'>
           <div className=' md:w-[350px]'>
             <img src="./assets/gridImage1.png" alt="" />
             <p className='text-[11px] font-bold text-[#727272] mt-3 hidden md:block'>NYHTER</p>
